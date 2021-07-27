@@ -4,6 +4,9 @@ Analyzes frames from video or web cam and predicts an emotion if a face is detec
 
 The emotion classifier has an accuracy of about 67%, but the performance is quite poor. Currently working on improving this performace.
 
+<img src="https://user-images.githubusercontent.com/34603371/127161283-8df09552-2188-45e1-aba8-392856139d12.png">
+
+
 
 ## Usage
 
@@ -13,4 +16,6 @@ The emotion classifier has an accuracy of about 67%, but the performance is quit
 - Run python3 app.py
 
 
-<img src="https://user-images.githubusercontent.com/34603371/127161283-8df09552-2188-45e1-aba8-392856139d12.png">
+## Demo
+<a href="https://drive.google.com/file/d/1WISQEVsBWicDJNGpbNnMgioWn_wUPZdu/view?usp=sharing">Demo Video</a>
+
