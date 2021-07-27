@@ -8,6 +8,6 @@ The emotion classifier has an accuracy of about 67%, but the performance is quit
 ## Usage
 
 - Download the repository
-- Install dependancies
+- Install dependancies (opencv, tensorflow and numpy)
 - Set file path or enable web cam in app.js
 - Run python3 app.py
