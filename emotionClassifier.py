@@ -1,7 +1,7 @@
 import tensorflow as tf
 import numpy as np
 
-model = tf.keras.models.load_model('models/saved_model/my_model')
+model = tf.keras.models.load_model('models/saved_model_cnn/my_model')
 
 
 class emotionClassifier:
@@ -23,8 +23,11 @@ class emotionClassifier:
         predictions = model.predict(img_array)
         score = tf.nn.softmax(predictions[0])
 
-        if np.max(score) > 0.7:
-            print(
-                "This image most likely belongs to {} with a {:.2f} percent confidence."
-                .format(class_names[np.argmax(score)], 100 * np.max(score))
-            )
+        if np.max(score) > 0.8:
+            # print(
+            #     "This image most likely belongs to {} with a {:.2f} percent confidence."
+            #     .format(class_names[np.argmax(score)], 100 * np.max(score))
+            # )
+            print(class_names[np.argmax(score)])
+        else: 
+            print('neutral')
